@@ -79,11 +79,11 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>1e-8 1e-8 1e-8</mass_center>
+					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>1e-8 1e-8 1e-8 1e-8 1e-8 1e-8</inertia>
+					<inertia>1e-08 1e-08 1e-08 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="clavicle">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -96,11 +96,11 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>1e-8 1e-8 1e-8</mass_center>
+					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>1e-8 1e-8 1e-8 1e-8 1e-8 1e-8</inertia>
+					<inertia>1e-08 1e-08 1e-08 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="clavphant">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -111,11 +111,11 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>1e-8 1e-8 1e-8</mass_center>
+					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>1e-8 1e-8 1e-8 1e-8 1e-8 1e-8</inertia>
+					<inertia>1e-08 1e-08 1e-08 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="scapula">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -139,6 +139,7 @@
 								<translation>-0.0057999999999999996 -0.0378 0.0095999999999999992</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
+								<!--Default appearance for this Geometry-->
 								<Appearance>
 									<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
 									<opacity>0.14999999999999999</opacity>
@@ -162,6 +163,7 @@
 								<translation>-0.097299999999999998 -0.042799999999999998 -0.036999999999999998</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
+								<!--Default appearance for this Geometry-->
 								<Appearance>
 									<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
 									<opacity>0.14999999999999999</opacity>
@@ -257,11 +259,11 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>1e-8 1e-8 1e-8</mass_center>
+					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>1e-8 1e-8 1e-8 1e-8 1e-8 1e-8</inertia>
+					<inertia>1e-08 1e-08 1e-08 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="scapphant">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -912,11 +914,11 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>2.184</mass>
+					<mass>2.1840000000000002</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 -0.14191799999999999 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0133 0.0022 0.01327 1e-08 1e-08 1e-08</inertia>
+					<inertia>0.013299999999999999 0.0022000000000000001 0.013270000000000001 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="ulna">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -962,7 +964,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1030,7 +1032,7 @@
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 -0.109865 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.00669 0.00088 0.00645 1e-08 1e-08 1e-08</inertia>
+					<inertia>0.0066899999999999998 0.00088000000000000003 0.00645 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="lunate">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1232,7 +1234,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1249,7 +1251,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1266,7 +1268,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1283,7 +1285,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1300,11 +1302,11 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>0.468</mass>
+					<mass>0.46800000000000003</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>1e-08 -0.0094 1e-08</mass_center>
+					<mass_center>1e-08 -0.0094000000000000004 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.000615 0.000215 0.000754 1e-08 1e-08 1e-08</inertia>
+					<inertia>0.00061499999999999999 0.00021499999999999999 0.000754 1e-08 1e-08 1e-08</inertia>
 				</Body>
 				<Body name="trapezium">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1315,9 +1317,9 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
-					<attached_geometry  />
+					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1334,7 +1336,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1351,7 +1353,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1385,7 +1387,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1421,7 +1423,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1455,7 +1457,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1472,7 +1474,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1489,7 +1491,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1506,7 +1508,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1542,7 +1544,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1559,7 +1561,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1595,7 +1597,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1631,7 +1633,7 @@
 						</objects>
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1648,7 +1650,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1665,7 +1667,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1682,7 +1684,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1699,7 +1701,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1716,7 +1718,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1733,7 +1735,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1750,7 +1752,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1767,7 +1769,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1784,7 +1786,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1801,7 +1803,7 @@
 					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
 					<attached_geometry />
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1816,7 +1818,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1831,7 +1833,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1846,7 +1848,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1861,7 +1863,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1876,7 +1878,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1891,7 +1893,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1906,7 +1908,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1921,7 +1923,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1936,7 +1938,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1951,7 +1953,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1966,7 +1968,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1981,7 +1983,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -1996,7 +1998,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2011,7 +2013,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2026,7 +2028,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2041,7 +2043,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2056,7 +2058,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2071,7 +2073,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2086,7 +2088,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2101,7 +2103,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2116,7 +2118,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -2131,7 +2133,7 @@
 						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
 					</FrameGeometry>
 					<!--The mass of the body (kg)-->
-					<mass>1e-8</mass>
+					<mass>1e-08</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>1e-08 1e-08 1e-08</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
@@ -3249,7 +3251,7 @@
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-							<locked>true</locked>
+							<locked>false</locked>
 							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 							<prescribed_function />
 						</Coordinate>
@@ -13983,47 +13985,47 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.10616913 0.0069239999999999996 0.084411799999999995</location>
+					<location>0.050000000000000003 -0.014999999999999999 0.089999999999999997</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
-					<fixed>false</fixed>
+					<fixed>true</fixed>
 				</Marker>
 				<Marker name="RigidBody1_2">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.1227622 -0.087732000000000004 0.1081807</location>
+					<location>-0.050000000000000003 -0.095000000000000001 0.10000000000000001</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
-					<fixed>false</fixed>
+					<fixed>true</fixed>
 				</Marker>
 				<Marker name="RigidBody1_3">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.012999999999999999 -0.034189999999999998 0.10000000000000001</location>
+					<location>0.050000000000000003 -0.095000000000000001 0.089999999999999997</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
-					<fixed>false</fixed>
+					<fixed>true</fixed>
 				</Marker>
 				<Marker name="RigidBody3_1">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/humerus</socket_parent_frame>
+					<socket_parent_frame>/bodyset/humphant</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.018647500000000001 -0.13312357 0.1050229</location>
+					<location>0.050000000000000003 -0.13 0.12</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
 				<Marker name="RigidBody3_2">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/humerus</socket_parent_frame>
+					<socket_parent_frame>/bodyset/humphant</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.078510932974481779 -0.11239477103476526 0.13864673834082056</location>
+					<location>-0.040000000000000001 -0.13 0.12</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
 				<Marker name="RigidBody3_3">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/humerus</socket_parent_frame>
+					<socket_parent_frame>/bodyset/humphant</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.035128559541909896 -0.042717603235365748 0.12587716658562056</location>
+					<location>-0.0050000000000000001 -0.040000000000000001 0.12</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14053,25 +14055,25 @@
 				</Marker>
 				<Marker name="RigidBody7_1">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/radius</socket_parent_frame>
+					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.033942194886171978 -0.030874268161293739 0.11996527109420602</location>
+					<location>-0.044999999999999998 0.17999999999999999 0.089999999999999997</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
 				<Marker name="RigidBody7_2">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/radius</socket_parent_frame>
+					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.091576366623683153 -0.0304365457134535 0.13011961239188363</location>
+					<location>0.029999999999999999 0.089999999999999997 0.089999999999999997</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
 				<Marker name="RigidBody7_3">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
-					<socket_parent_frame>/bodyset/radius</socket_parent_frame>
+					<socket_parent_frame>/bodyset/lunate</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0015803705857048017 -0.12114616669693207 0.11620605880070239</location>
+					<location>-0.01 0.089999999999999997 0.089999999999999997</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
